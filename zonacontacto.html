@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="estilo 3.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="restaurante2.png" alt="" width="800">
+
+        </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="menu.html">Menu</a>
+            <a href="bp.html">Bebidas y postres</a>
+            <a href="zonacontacto.html">Contactanos</a>
+        </nav>
+        <section class="contact">
+            <form action="archivo.php" method="post">
+                <h2 >Contactanos</h2>
+                <table>
+                    <tr>
+                        <td class="izq"><label for="name">Nombre:</label></td>
+                        <td class="der"><input type="text" id="name" name="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td class="izq"><label for="last-name">Apellido:</label></td>
+                        <td class="der"><input type="text" id="last-name" name="apellido"></td>
+                    </tr>
+                    <tr>
+                        <td class="izq"><label for="mail">E-mail:</label></td>
+                        <td class="der"><input type="email" name="correo" id="mail"></td>
+                    </tr>
+                    <tr>
+                        <td class="izq"><label for="mensaje">Mensaje:</label></td>
+                        <td class="der"><textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="izq"><input type="reset" value="Borrar"></td>
+                        <td class="der"><input type="submit" value="Enviar"></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+        <footer>
+            <div class="texto1">
+                <p>Informacion de la compañia </p>
+                    <p>Politicas de privacidad </p> 
+                    <p> copyright</p>
+            </div>
+            <div id="redes" class="redes">
+                <img src="redes.png" alt="" width="400">
+            </div>
+            <div class="logo">
+                <img src="logo1.png" alt="" width="200">
+            </div>
+        </footer>
+    </main>
+    <div class="inicio-btn">
+        <a href="#top">Ir al inicio</a>
+    </div>
+    <div class="ordenar-btn">
+        <a href="#redes">Ordena!</a>
+    </div>
+
+</body>
+
+</html>

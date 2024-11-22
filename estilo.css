@@ -1,0 +1,156 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+main {
+  width: 1366px;
+  margin: auto;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  background-color: #cd1819;
+  padding: 10px 0;
+}
+
+nav {
+  background-color: #97c9d7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  background-color: #495458;
+  border-radius: 5px;
+}
+
+
+.galeria {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.galeria h2 {
+  font-family: "Pacifico", cursive;
+  margin-bottom: 20px;
+}
+
+.galeria-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.galeria-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.galeria-container img:hover {
+  transform: scale(1.1);
+}
+
+
+.spotify {
+  text-align: center;
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #e6f7ff;
+  border-radius: 10px;
+}
+
+.spotify h2 {
+  font-family: "Pacifico", cursive;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.spotify iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 352px;
+  border: none;
+  border-radius: 12px;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .texto1 p {
+  margin: 5px 0;
+}
+
+footer .redes img {
+  width: 150px;
+}
+
+footer .logo img {
+  width: 100px;
+}
+
+
+.inicio-btn,
+.ordenar-btn {
+  position: fixed;
+  right: -90px;
+  padding: 10px 15px;
+  width: 200px;
+  background-color: #97c9d7;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.inicio-btn {
+  bottom: 120px;
+}
+
+.ordenar-btn {
+  bottom: 50px;
+}
+
+.inicio-btn:hover,
+.ordenar-btn:hover {
+  right: -10px;
+}
+
+.inicio-btn a,
+.ordenar-btn a {
+  color: white;
+  text-decoration: none;
+}
+

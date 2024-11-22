@@ -1,0 +1,120 @@
+header{
+    width: 1366px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(217, 4, 43);
+    
+}
+main{
+    width: 1366px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(../imagenes/Fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+section{
+    width: 1366px;
+    height: 1800px;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 1366px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(152, 201, 215);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+}
+nav a:hover{
+    background-color: rgb(179, 235, 227);
+}
+
+.desayuno{
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(218, 226, 226, 0.566);
+    float: left;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+.desayuno .texto1{
+    width: 1300px;
+    height: 400px;
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    
+}
+.desayuno h2{
+    text-align: center;
+    
+}
+.hamburguesa{
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(218, 226, 226, 0.566); 
+    float: left;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+.hamburguesa .texto2{
+    width: 1300px;
+    height: 400px;
+   float: left;
+    text-align: center;
+    margin: 25px;
+}
+.hamburguesa{
+    text-align: center;
+}
+section .hotdog{
+    width: 645px;
+    height: 900px;
+    background-color: rgba(218, 226, 226, 0.566);
+    float: left;
+    margin-left: 30px;
+   margin-top: 20px;
+}
+.hotdog .texto3{
+    width: 645px;
+    height: 200px;
+    
+    float: left;
+    margin: 5px;
+    text-align: center;
+}
+.hotdog h2{
+    text-align: center;
+}
+section .ensalada{
+    width: 645px;
+    height: 900px;
+    background-color:  rgba(218, 226, 226, 0.566);
+    float: left;
+    margin-left: 30px;
+   margin-top: 20px;
+}
+.ensalada .texto4{
+    width: 645px;
+    height: 30px;
+    
+    float: left;
+    margin: 5px;
+    text-align: center;
+}
+.ensalada h2{
+    text-align: center;
+}
+footer{
+    width: 1366px;
+    height: 320px;
+    background-color: black;
+}
