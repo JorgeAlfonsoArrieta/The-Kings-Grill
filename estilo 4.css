@@ -9,7 +9,7 @@ main{
     width: 1366px;
     height: auto;
     margin: 0 auto;
-    background-image: url(../imagenes/Fondo.jpg);
+    background-image: url(Fondo.jpg);
     background-position: center;
     background-size: cover;
 }
