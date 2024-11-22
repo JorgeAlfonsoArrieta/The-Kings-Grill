@@ -12,7 +12,7 @@ section{
 main {
   width: 1366px;
   height: auto;
-  background-image: url(../imagenes/Fondo.jpg);
+  background-image: url(Fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
